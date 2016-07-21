@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+<style>
+
+    table
+    {
+        margin-top: 10%;
+        width: 300px;
+        height: 200px;
+
+    }
+
+
+</style>
+
+
+</head>
+<body>
+<form method="post">
+ <table align="center" cellspacing="0" cellpadding="5">
+     <caption><h2>Registration Form</h2></caption>
+     <tr><th align="left">Name</th><td><input type="text" name="name" required></td></tr>
+     <tr><th align="left">Email</th><td><input type="email" name="email" required></td></tr>
+     <tr><th align="left">Password</th><td><input type="password" name="pass" required></td></tr>
+     <tr>
+         <th align="left">Courses</th>
+         <td>
+             <input type="checkbox" name="cp" value="CP">CP<br>
+             <input type="checkbox" name="wpl" value="WPL">WPL<br>
+             <input type="checkbox" name="dcl" value="DCL">DCL
+         </td>
+
+
+     </tr>
+
+     <tr>
+         <th align="left">Courses</th>
+         <td>
+             <input type="radio" name="course_single" value="CP">CP<br>
+             <input type="radio" name="course_single" value="WPL">WPL<br>
+             <input type="radio" name="course_single" value="DCL">DCL
+         </td>
+
+
+     </tr>
+     <tr><td colspan="2" align="center"><input type="submit" name="submit" value="Save"> </td></tr>
+
+ </table>
+</form>
+</body>
+</html>
